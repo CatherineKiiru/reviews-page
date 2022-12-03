@@ -65,11 +65,11 @@ main{
     min-height: 100vh;
 }
 .title{
-    margin-top: 25vh;
+    margin-top: 10vh;
 }
 
 .title > h2 {
-    font-size: 60px;
+    font-size: 50px;
 }
 .underline{
    height: 0.25rem;
@@ -84,6 +84,7 @@ main{
     border-radius: 0.25rem;
     box-shadow: var(--light-shadow);
     text-align: center;
+    margin-top: 2.5rem;
 }
 .img-container {
     position: relative;
@@ -135,17 +136,59 @@ main{
     border-radius: 50%;
     box-shadow: var(--dark-shadow);   
 }
-
-
-
-
-
-
+#author{
+    margin-bottom: 0.25rem;
+    font-weight: 700;
+    font-size: 20px;
+}
+#job{
+    color: var(--clr-primary-5);
+    font-weight: 700;
+}
+#info{
+    margin: 10px 10px;
+}
+.prev-btn,
+.next-btn{
+    cursor: pointer;
+    color: var(--clr-primary-5);
+    font-size: 1.25rem;
+    background: transparent;
+    border: none;
+    font-size:x-large;
+    border-color: transparent;
+    margin: 0 o.5rem;
+    transition: var(--transition);
+}
+.prev-btn:hover,
+.next-btn:hover{
+    color: var(--clr-primary-1);
+}
+.random-btn{
+    margin-top: 0.25rem;
+    background-color: var(--clr-primary-5);
+    color: var(--clr-primary-10);
+    font-weight: 700;
+    padding: 0.25rem 0.5rem;
+    text-transform: capitalize;
+    border-radius: var(--radius);
+    transition: var(--transition);
+    border-color: var(--clr-primary-8);
+    cursor: pointer;
+}
+.random-btn:hover{
+    background: var(--clr-primary-5);
+    color: var(--clr-primary-1);
+}
 
 .footer{
-    margin-top: 40vh;
+    margin-top: 5vh;
     justify-content: center;
     align-items: center;
+}
+a {
+    text-decoration: none;
+    color: var(--clr-primary-1);
 }
 
 
